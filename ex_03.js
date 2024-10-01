@@ -1,24 +1,19 @@
-function paintRedRectangle() {
-    let redRect = document.getElementById('redRect');
-    if (redRect) {
-        redRect.style.backgroundColor = '#ED6A5E';  
-    }
-}
+function changebackground() {
+    var magicNumber = 1;
 
-function paintGreenRectangle() {
-    let greenRect = document.getElementById('greenRect');
-    if (greenRect) {
-        greenRect.style.backgroundColor = '#99DDC8';  
-    }
-}
+    if (magicNumber === 1) {
+    let magicNumber = 2;
+      paintYellowRectangle();
 
-function paintYellowRectangle() {
-    let yellowRect = document.getElementById('yellowRect');
-    if (yellowRect) {
-        yellowRect.style.backgroundColor = 'yellow'; 
-    }
-}
-paintRedRectangle();    
-paintGreenRectangle();  
-paintYellowRectangle();
+    if (magicNumber === 2) {
+    let magicNumber = 3;
+      paintGreenRectangle();
 
+    if (magicNumber === 3) {
+      paintRedRectangle();
+      }
+      }
+    }
+  }
+
+  changebackground();
